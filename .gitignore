@@ -1,0 +1,17 @@
+# Exclude the generated Word document
+image_grid.docx
+
+# Exclude temporary files and directories
+*.tmp
+temp_dir/
+
+# Exclude virtual environment folders
+venv/
+.venv/
+
+# Exclude macOS-specific files
+.DS_Store
+
+# Exclude IDE-specific files (e.g., from VS Code, PyCharm)
+.vscode/
+.idea/
